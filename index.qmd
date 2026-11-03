@@ -1,0 +1,34 @@
+---
+pagetitle: "Daniel Bravo Vivallo"
+page-layout: article
+---
+
+::: {.db-hero}
+::: {}
+[Daniel Bravo Vivallo]{.db-display}
+
+[Investigador, Profesor y Divulgador de las Matemáticas]{.db-subtitle}
+:::
+:::
+
+Profesor Asociado del Instituto de Ciencias Físicas y Matemáticas (ICFM), Facultad de Ciencias de la Universidad Austral de Chile (UACh) y PhD en Matemáticas por Wesleyan University (Connecticut, EE. UU.).
+
+Mi línea principal es el álgebra homológica: en particular en lo que se refiere a condiciones de finitud sobre módulos y resoluciones libres por métodos combinatoriales.
+
+Me interesa articular investigación, docencia y comunicación pública de las Matemáticas mediante proyectos colaborativos.
+
+::: {.db-image-slot}
+Aquí van las dos imágenes de la página actual (pendiente de recibir los archivos).
+:::
+
+::: {.db-contact}
+## Contacto
+
+[daniel.bravo@uach.cl](mailto:daniel.bravo@uach.cl)
+
+Instituto de Ciencias Físicas y Matemáticas,\
+Facultad de Ciencias,\
+Universidad Austral de Chile.\
+Campus Isla Teja,\
+Valdivia, Chile
+:::

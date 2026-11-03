@@ -1,0 +1,136 @@
+/*-- scss:defaults --*/
+// Tokens del design system "Daniel Bravo" (versión 2, tema claro).
+// Los nombres de variable siguen los del sistema para poder rastrearlos.
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&display=swap");
+
+// Color
+$db-white:       #ffffff;
+$db-surface-200: #f4f4f6;
+$db-rule:        #d9d9de;
+$db-ink:         #000000;
+$db-ink-muted:   #595959;
+$db-azul:        #0000ff;
+$db-azul-deep:   #0000b3;
+$db-azul-tint:   #e6e6ff;
+$db-verde:       #008000;
+$db-rojo:        #ff0000;
+
+// Espaciado y radios
+$db-space-1: 8px;
+$db-space-2: 16px;
+$db-space-3: 24px;
+$db-space-4: 48px;
+$db-radius-sm: 4px;
+$db-radius-md: 10px;
+
+// Bootstrap
+$body-bg: $db-white;
+$body-color: $db-ink;
+$primary: $db-azul;
+$secondary: $db-ink-muted;
+$success: $db-verde;
+$danger: $db-rojo;
+$link-color: $db-azul;
+$link-hover-color: $db-azul-deep;
+$border-color: $db-rule;
+$border-radius: $db-radius-md;
+$border-radius-sm: $db-radius-sm;
+
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+$headings-font-family: Fraunces, Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$font-size-root: 18px;
+$line-height-base: 1.6;
+
+$navbar-bg: $db-white;
+$navbar-fg: $db-ink;
+$navbar-hl: $db-azul;
+$footer-bg: $db-white;
+$footer-fg: $db-ink-muted;
+
+$code-bg: $db-surface-200;
+$code-color: $db-ink;
+
+/*-- scss:rules --*/
+
+// Tipografía con nombre (estilos del sistema)
+.db-display {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.db-eyebrow {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $db-azul;
+}
+.db-small, .db-small p {
+  font-size: 15px;
+  line-height: 22px;
+  color: $db-ink-muted;
+}
+h1, .h1 { font-size: 38px; line-height: 44px; }
+h2, .h2 { font-size: 27px; line-height: 34px; font-weight: 500; border-bottom: none; }
+h3, .h3 { font-size: 21px; line-height: 28px; font-weight: 500; }
+
+// Enlaces subrayados, para no depender solo del color
+main a { text-decoration: underline; text-underline-offset: 2px; }
+
+// Barra de navegación con filete, sin sombra
+.navbar { border-bottom: 1px solid $db-rule; box-shadow: none; }
+.navbar-brand .navbar-title { font-family: $headings-font-family; font-weight: 600; }
+.navbar-logo { max-height: 36px; }
+.navbar .nav-link.active { color: $db-azul !important; }
+
+// Portada
+.db-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $db-space-3;
+  padding: $db-space-4 0 $db-space-3;
+  border-bottom: 1px solid $db-rule;
+  margin-bottom: $db-space-4;
+}
+.db-hero .db-display { margin-top: $db-space-1; }
+.db-hero .db-subtitle {
+  font-family: $headings-font-family;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 34px;
+  color: $db-ink-muted;
+  margin: $db-space-1 0 0;
+}
+
+// Bloque de contacto
+.db-contact {
+  background: $db-surface-200;
+  border-radius: $db-radius-md;
+  padding: $db-space-3;
+  margin-top: $db-space-4;
+}
+.db-contact h2 { margin-top: 0; }
+.db-contact p { margin-bottom: 0; }
+
+// Espacio reservado para imágenes pendientes
+.db-image-slot {
+  border: 1px dashed $db-rule;
+  border-radius: $db-radius-md;
+  padding: $db-space-3;
+  color: $db-ink-muted;
+  font-size: 15px;
+  text-align: center;
+  margin: $db-space-3 0;
+}
+
+@media (max-width: 575.98px) {
+  .db-display { font-size: 40px; line-height: 44px; }
+  .db-hero .db-subtitle { font-size: 21px; line-height: 28px; }
+}

@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: es
+
+website:
+  title: "Daniel Bravo"
+  site-url: "https://www.danielbravo.cl"
+  description: "Investigador, Profesor y Divulgador de las Matemáticas"
+  favicon: images/logo-db.svg
+  navbar:
+    logo: images/logo-db.svg
+    logo-alt: "Logo de Daniel Bravo, diagrama de la columna diamante"
+    title: "Daniel Bravo"
+    left:
+      - href: index.qmd
+        text: Principal
+      - href: investigacion.qmd
+        text: Investigación
+      - href: columna-diamante.qmd
+        text: Columna Diamante
+  page-footer:
+    left: "Daniel Bravo Vivallo · ICFM, Universidad Austral de Chile"
+    right: "[daniel.bravo@uach.cl](mailto:daniel.bravo@uach.cl)"
+
+format:
+  html:
+    theme: [default, brand.scss]
+    toc: false
+    html-math-method: mathjax

@@ -8,9 +8,9 @@ website:
   title: "Daniel Bravo"
   site-url: "https://www.danielbravo.cl"
   description: "Investigador, Profesor y Divulgador de las Matemáticas"
-  favicon: images/logo-db.svg
+  favicon: images/logo-db-web.svg
   navbar:
-    logo: images/logo-db.svg
+    logo: images/logo-db-web.svg
     logo-alt: "Logo de Daniel Bravo, diagrama de la columna diamante"
     title: "Daniel Bravo"
     left:

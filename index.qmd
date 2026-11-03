@@ -1,14 +1,17 @@
 ---
 pagetitle: "Daniel Bravo Vivallo"
 page-layout: article
+image: images/foto_danielbravo_web.jpg
 ---
 
 ::: {.db-hero}
-::: {}
+::: {.db-hero-text}
 [Daniel Bravo Vivallo]{.db-display}
 
 [Investigador, Profesor y Divulgador de las Matemáticas]{.db-subtitle}
 :::
+
+![](images/foto_danielbravo_web.jpg){.db-hero-photo fig-alt="Daniel Bravo frente a una pizarra con diagramas de resoluciones"}
 :::
 
 Profesor Asociado del Instituto de Ciencias Físicas y Matemáticas (ICFM), Facultad de Ciencias de la Universidad Austral de Chile (UACh) y PhD en Matemáticas por Wesleyan University (Connecticut, EE. UU.).
@@ -17,9 +20,7 @@ Mi línea principal es el álgebra homológica: en particular en lo que se refie
 
 Me interesa articular investigación, docencia y comunicación pública de las Matemáticas mediante proyectos colaborativos.
 
-::: {.db-image-slot}
-Aquí van las dos imágenes de la página actual (pendiente de recibir los archivos).
-:::
+![](images/anillos.png){.db-figure fig-alt="Diagrama de clases de anillos anidadas, de los noetherianos a los n-coherentes, con ejemplos en cada región"}
 
 ::: {.db-contact}
 ## Contacto

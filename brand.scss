@@ -99,7 +99,25 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   border-bottom: 1px solid $db-rule;
   margin-bottom: $db-space-4;
 }
-.db-hero .db-display { margin-top: $db-space-1; }
+@media (min-width: 768px) {
+  .db-hero { grid-template-columns: 1fr 280px; align-items: center; }
+}
+.db-hero p { margin: 0; }
+.db-hero-photo, .db-hero img {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: $db-radius-md;
+}
+.db-figure, img.db-figure {
+  display: block;
+  max-width: min(100%, 480px);
+  height: auto;
+  margin: $db-space-4 auto;
+}
+.db-hero .db-display { margin-top: $db-space-1; display: block; }
+.db-hero .db-subtitle { display: block; }
 .db-hero .db-subtitle {
   font-family: $headings-font-family;
   font-weight: 500;

@@ -1,5 +1,13 @@
 ---
-title: Columna Diamante
+title: "Columna Diamante"
 ---
 
-Página en construcción.
+Hace click en este link para ir directo a la página de la aplicación.
+
+[danielbravo.cl/columna-diamante](/columna-diamante/)
+
+```{=html}
+<iframe class="db-app" src="/columna-diamante/" title="Aplicación Columna Diamante" loading="lazy"></iframe>
+```
+
+Arrastrar los nodos de manera horizontal para lograr otra visualización. Luego exportar esa visualización en formato TikZ (copiar y pegar código LaTeX).

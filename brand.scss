@@ -168,3 +168,15 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   color: $db-ink-muted;
 }
 .db-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: $db-ink; border-radius: $db-radius-md; margin: $db-space-3 0 $db-space-4; }
+
+// Aplicación incrustada
+.db-app {
+  display: block;
+  width: 100%;
+  height: 900px;
+  border: 1px solid $db-rule;
+  border-radius: $db-radius-md;
+  margin: $db-space-3 0;
+  background: $db-white;
+}
+@media (max-width: 575.98px) { .db-app { height: 720px; } }

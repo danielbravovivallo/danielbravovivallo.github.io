@@ -167,4 +167,4 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   font-weight: 600;
   color: $db-ink-muted;
 }
-.quarto-video { margin: $db-space-3 0 $db-space-4; }
+.db-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: $db-ink; border-radius: $db-radius-md; margin: $db-space-3 0 $db-space-4; }

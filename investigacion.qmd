@@ -4,7 +4,12 @@ title: "Investigación"
 
 Una visualización de la construcción de resoluciones libres mediante el método columna–diamante
 
-{{< video https://www.youtube.com/embed/vvGtSaIB6ys title="Construcción de resoluciones libres mediante el método columna–diamante" aspect-ratio="16x9" >}}
+```{=html}
+<video class="db-video" controls playsinline preload="metadata" poster="media/ejemplo-completo-poster.jpg">
+  <source src="media/ejemplo-completo.mp4" type="video/mp4">
+  Tu navegador no puede reproducir este video. <a href="media/ejemplo-completo.mp4">Descárgalo aquí</a>.
+</video>
+```
 
 ## Preprints
 

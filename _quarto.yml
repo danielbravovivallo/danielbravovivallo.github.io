@@ -11,6 +11,9 @@ website:
   site-url: "https://www.danielbravo.cl"
   description: "Investigador, Profesor y Divulgador de las Matemáticas"
   favicon: images/logo-db-web.svg
+  image: images/foto_danielbravo_web.jpg
+  open-graph: true
+  twitter-card: true
   navbar:
     logo: images/logo-db-web.svg
     logo-alt: "Logo de Daniel Bravo, diagrama de la columna diamante"

@@ -1,4 +1,5 @@
 ---
+image: images/resolucion2.png
 title: "Columna Diamante"
 ---
 

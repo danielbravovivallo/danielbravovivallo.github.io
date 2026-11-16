@@ -152,3 +152,19 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   .db-display { font-size: 40px; line-height: 44px; }
   .db-hero .db-subtitle { font-size: 21px; line-height: 28px; }
 }
+
+// Listas de publicaciones
+.db-pubs ul { list-style: none; padding-left: 0; }
+.db-pubs li {
+  padding: $db-space-2 0;
+  border-bottom: 1px solid $db-rule;
+  margin: 0;
+}
+.db-pubs li:last-child { border-bottom: none; }
+.db-ref {
+  display: inline-block;
+  min-width: 2.5em;
+  font-weight: 600;
+  color: $db-ink-muted;
+}
+.quarto-video { margin: $db-space-3 0 $db-space-4; }

@@ -15,7 +15,7 @@ Una visualización de la construcción de resoluciones libres mediante el métod
 ## Preprints
 
 ::: {.db-pubs}
-- Bravo, D. *Combinatorial free chain complexes over quotient polynomial rings*. arXiv:2408.14695 (2024). [arXiv](https://arxiv.org/abs/2408.14695)
+- Bravo, D., Castillo, F., Villamizar, N. *The Column-Diamond Resolution over Quadratic Monomial Rings*. arXiv:2408.14695 (2026). [arXiv](https://arxiv.org/abs/2408.14695)
 :::
 
 ## Publicaciones

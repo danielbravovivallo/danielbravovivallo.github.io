@@ -3,9 +3,7 @@ image: images/resolucion2.png
 title: "Columna Diamante"
 ---
 
-Hace click en este link para ir directo a la página de la aplicación.
-
-[danielbravo.cl/columna-diamante](/columna-diamante/)
+Haz clic en [este enlace](/columna-diamante/) para ir directo a la página de la aplicación.
 
 ```{=html}
 <iframe class="db-app" src="/columna-diamante/" title="Aplicación Columna Diamante" loading="lazy"></iframe>

@@ -6,4 +6,5 @@ title: "Charlas"
 
 ::: {.db-pubs}
 - [17 de noviembre de 2026]{.db-fecha} *La resolución columna-diamante sobre anillos de monomios cuadráticos*. Coloquio CATA 2026-Otoño, Instituto de Matemáticas, UNAM, Ciudad de México. [Láminas](media/charlas/2026-11-17-coloquio-cata-columna-diamante.pdf) · [Evento](https://sites.google.com/izt.uam.mx/cata-2026-o-coloquio/inicio)
+- [16 de octubre de 2026]{.db-fecha} *La resolución columna-diamante sobre anillos de monomios cuadráticos*. Seminario de Álgebra del IMERL, Universidad de la República, Montevideo. [Seminarios](http://www.cmat.edu.uy/seminarios)
 :::

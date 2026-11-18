@@ -161,6 +161,12 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   margin: 0;
 }
 .db-pubs li:last-child { border-bottom: none; }
+.db-fecha {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $db-ink-muted;
+}
 .db-ref {
   display: inline-block;
   min-width: 2.5em;

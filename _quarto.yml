@@ -25,6 +25,8 @@ website:
         text: Investigación
       - href: columna-diamante.qmd
         text: Columna Diamante
+      - href: charlas.qmd
+        text: Charlas
   page-footer:
     left: "Daniel Bravo Vivallo · ICFM, Universidad Austral de Chile"
     right: "[daniel.bravo@uach.cl](mailto:daniel.bravo@uach.cl)"

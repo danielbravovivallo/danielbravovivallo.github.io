@@ -12,5 +12,5 @@ title: "Charlas"
 ## Divulgación
 
 ::: {.db-pubs}
-- [6 de octubre de 2026]{.db-fecha} *Cuando tres cartas forman una recta: el álgebra y la geometría del juego SET*. 9° Encuentro de Geometría y Topología: Escuelas y Liceos, Universidad Metropolitana de Ciencias de la Educación (UMCE), Santiago.
+- [6 de octubre de 2026]{.db-fecha} *Cuando tres cartas forman una recta: el álgebra y la geometría del juego SET*. 9°&nbsp;Encuentro de Geometría y Topología: Escuelas y Liceos, Universidad Metropolitana de Ciencias de la Educación (UMCE), Santiago.
 :::
